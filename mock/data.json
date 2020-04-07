@@ -1,0 +1,495 @@
+{
+	"cfp" : 
+		{
+			"id":1,
+			"avatar": "/static/images/speakerad.jpg",
+			"className" :"hero",
+			"slug": "speakers.subtitle",
+			"description": "speakers.description",
+			"hasLink":true,
+			"linkTitle":"speakers.link.title",
+			"url":"https://docs.google.com/forms/d/e/1FAIpQLSd_OSvbJL0GAjIeA0yRe8TLUmiWIiDrdJLCWXXgnLMSr52msw/viewform",
+			"icons": [{
+				"url": "https://www.gatsbyjs.org/",
+				"icon": "gatsby"
+			}, {
+				"url": "https://graphql.org/",
+				"icon": "graphql"
+			},
+			{
+				"url": "https://sass-lang.com/",
+				"icon": "sass"
+			},
+			{
+				"url": "https://styled-components.com/",
+				"icon": "styledComponents"
+			},
+			{
+				"url": "https://storybook.js.org/",
+				"icon": "storyBook"
+			},
+			{
+				"url": "https://gohugo.io/documentation/",
+				"icon": "hugo"
+			},
+			{
+				"url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+				"icon": "css"
+			},
+			{
+				"url": "https://slack.com/intl/en-ie/",
+				"icon": "slack"
+			},
+			{
+				"url": "https://nodejs.org/en/",
+				"icon": "node"
+			},
+			{
+				"url": "https://reacttraining.com/react-router/",
+				"icon": "reactRouter"
+			},
+			{
+				"url": "https://reactjs.org/",
+				"icon": "react"
+			},
+			{
+				"url": "https://jestjs.io/",
+				"icon": "jest"
+			},
+			{
+				"url": "https://angular.io/",
+				"icon": "angular"
+			},
+			{
+				"url": "https://nodered.org/",
+				"icon": "nodeRed"
+			},
+			{
+				"url": "https://vuejs.org/",
+				"icon": "vue"
+			},
+			{
+				"url": "https://nuxtjs.org/",
+				"icon": "nuxt"
+			},
+			{
+				"url": "https://vuetifyjs.com/en/",
+				"icon": "vuetify"
+			},
+			{
+				"url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+				"icon": "js"
+			}
+			]
+		},
+	"peoples": [],
+	"juries": [],
+	"friends": [
+		{
+			"id":1,
+			"avatar": "/static/images/people/ali.jpg",
+			"slug": "core.team.ali.hariri",
+			"description": "core.team.des.ali.hariri",
+			"icons": [{
+				"url": "https://www.linkedin.com/in/malihariri/",
+				"icon": "linkedin"
+			}]
+		},
+		{
+			"id":2,
+			"avatar": "/static/images/people/behrouz.jpg",
+			"slug": "core.team.behrouz.omran",
+			"description": "core.team.des.behrouz.omran",
+			"icons": [{
+				"url": "https://www.linkedin.com/in/malihariri/",
+				"icon": "linkedin"
+			}]
+		},
+		{
+		"id":3,
+		"avatar": "/static/images/people/siamak.jpg",
+		"slug": "friends.siamak.mokhtari",
+		"description": "friends.des.siamak.mokhtari",
+		"icons": [{
+			"url": "https://twitter.com/sia_mac",
+			"icon": "twitter"
+		}, {
+			"url": "https://www.linkedin.com/in/siamakmokhtari/",
+			"icon": "linkedin"
+		},
+			{
+				"url": "https://www.github.com/siamak",
+				"icon": "github"
+			},
+
+			{
+				"url": "https://dribbble.com/siamak",
+				"icon": "dribbble"
+			}
+		]
+	},
+		{
+			"id":4,
+			"avatar": "/static/images/people/mehri.jpg",
+			"slug": "friends.mehri.daei",
+			"description": "friends.des.mehri.daei",
+			"icons": [{
+				"url": "https://twitter.com/mehridaie",
+				"icon": "twitter"
+			},{
+				"url": "https://www.linkedin.com/in/mehridaei/",
+				"icon": "linkedin"
+			},{
+				"url": "https://www.github.com/mehridaie",
+				"icon": "github"
+			},{
+				"url": "https://mehridaei.com",
+				"icon": "website"
+			}
+		]
+		},
+		{
+			"id":5,
+			"avatar": "/static/images/people/samaneh.jpg",
+			"slug": "friends.samaneh.rabiee",
+			"description": "friends.des.samaneh.rabiee",
+			"icons": [{
+				"url": "https://www.linkedin.com/in/mehridaie/",
+				"icon": "linkedin"
+			}]
+		}
+	],
+	"team": [{
+		"id":1,
+		"avatar": "/static/images/people/milad.jpg",
+		"slug": "core.team.milad.heydari",
+		"description": "core.team.des.milad.heydari",
+		"icons": [{
+			"url": "http://www.linkedin.com/in/miladheydari",
+			"icon": "linkedin"
+		},
+			{
+				"url": "https://twitter.com/iammilaad",
+				"icon": "twitter"
+			},{
+				"url": "http://www.instagram.com/iammilaad",
+				"icon": "instagram"
+			}, {
+				"url": "https://github.com/miladbruce",
+				"icon": "github"
+			}
+		]
+	}, {
+		"id":2,
+		"avatar": "/static/images/people/pourya.jpg",
+		"slug": "core.team.pourya.sharifi",
+		"description": "core.team.des.pourya.sharifi",
+		"icons": [{
+			"url": "https://www.linkedin.com/in/alaki",
+			"icon": "linkedin"
+		}, {
+			"url": "https://twitter.com/alaki",
+			"icon": "twitter"
+		}]
+	},
+		{
+			"id":3,
+			"avatar": "/static/images/people/majid.jpg",
+			"slug": "core.team.majid.zamani",
+			"description": "core.team.des.majid.zamani",
+			"icons": [{
+				"url": "https://www.linkedin.com/in/majid-zamani-615006109/",
+				"icon": "linkedin"
+			}]
+		}
+	],
+	"partners" : [
+		{
+			"title": "ایده نگاران هست نما",
+			"logo": "/static/images/partners/vip/hastnama.svg",
+			"url": "https://hastnama.com"
+		},
+		{
+			"title": "هست نما آکادمی",
+			"logo": "/static/images/partners/vip/hastnama_academy.svg",
+			"url": "https://hastnama.com/academy"
+		},
+		{
+			"title": "آموزش برنامه نویسی برای کودکان",
+			"logo": "/static/images/partners/vip/kidcoding.ir.svg",
+			"url": "http://kidcoding.ir/"
+		}
+
+	],
+	"sponsors" : [
+		{
+			"title": "‌Siamak Mokhtari",
+			"logo": "/static/images/partners/siamak.png",
+			"url": "https://siamak.us"
+		},
+		{
+			"title": "Virgool",
+			"logo": "/static/images/partners/virgool.png",
+			"url": "https://virgool.io"
+		},
+		{
+			"title": "Webbranding",
+			"logo": "/static/images/partners/webbranding.png",
+			"url": "https://webbranding.org/"
+		},
+		{
+			"title": "raychat",
+			"logo": "/static/images/partners/raychat.png",
+			"url": "https://raychat.io/"
+		},
+		{
+			"title": "sazito",
+			"logo": "/static/images/partners/sazito.png",
+			"url": "https://sazito.com/"
+		},
+		{
+			"title": "Tehran React Group",
+			"logo": "/static/images/partners/reacttehran.png",
+			"url": "https://t.me/tehranreact"
+		},
+		{
+			"title": "macneed",
+			"logo": "/static/images/partners/macneed.png",
+			"url": "https://macneed.ir/"
+		},
+		{
+			"title": "binosha",
+			"logo": "/static/images/partners/Binosha.png",
+			"url": "https://binosha.com"
+		},
+		{
+			"title": "frontcast",
+			"logo": "/static/images/partners/frontcast.png",
+			"url": "http://frontcast.ir/"
+		}
+	],
+	"jobPositions" : [
+		{
+		  "value": "Software Engineer",
+		  "label": "Software Engineer",
+		  "children": [
+			{
+			  	"value": "Mobile Developer",
+			  	"label": "Mobile Developer"
+			},
+			{
+				"value": "Frontend Developer",
+				"label": "Frontend Developer"
+			},
+			{
+				"value": "Backend Developer",
+				"label": "Backend Developer"
+			},
+			{ 
+				"value": "Full-Stack Developer",
+				"label": "Full-Stack Developer"
+			},
+			{ 
+				"value": "Engineering Manager",
+				"label": "Engineering Manager"
+			},
+			{ 
+				"value": "QA Engineer",
+				"label": "QA Engineer"
+			},
+			{ 
+				"value": "DevOps",
+				"label": "DevOps"
+			},
+			{ 
+				"value": "Software Architect",
+				"label": "Software Architect"
+			}
+		  ]
+		},
+		{
+		  "value": "Designer",
+		  "label": "Designer",
+		  "children": [
+			{
+			  	"value": "UI/UX Designer",
+			  	"label": "UI/UX Designer"
+			},
+			{
+				"value": "Visual Designer",
+				"label": "Visual Designer"
+			},
+			{
+				"value": "Creative Designer",
+				"label": "Creative Designer"
+			},
+			{
+				"value": "Graphic & Brand Designer",
+				"label": "Graphic & Brand Designer"
+			}
+		  ]
+		},
+		{
+			"value": "Operations",
+			"label": "Operations",
+			"children": [
+			  {
+				"value": "H.R.",
+				"label": "H.R."
+			  },
+			  {
+				"value": "Office Manager",
+				"label": "Office Manager"
+			  },
+			  {
+				"value": "Recruiter",
+				"label": "Recruiter"
+			  },
+			  {
+				"value": "Customer Service",
+				"label": "Customer Service"
+			  },
+			  {
+				"value": "Operations Manager",
+				"label": "Operations Manager"
+			  }
+			]
+		  },
+		  {
+			"value": "Sales",
+			"label": "Sales",
+			"children": [
+			  {
+				"value": "Business Development",
+				"label": "Business Development"
+			  },
+			  {
+				"value": "Account Manager",
+				"label": "Account Manager"
+			  },
+			  {
+				"value": "Sales",
+				"label": "Sales"
+			  },
+			  {
+				"value": "Sales Engineer",
+				"label": "Sales Engineer"
+			  }
+			]
+		  },
+		  {
+			"value": "Marketing",
+			"label": "Marketing",
+			"children": [
+			  {
+				"value": "Growth Hacker",
+				"label": "Growth Hacker"
+			  },
+			  {
+				"value": "Marketing Manager",
+				"label": "Marketing Manager"
+			  },
+			  {
+				"value": "Content Creator",
+				"label": "Content Creator"
+			  },
+			  {
+				"value": "Social Media Manager",
+				"label": "Social Media Manager"
+			  }
+			]
+		  },
+		  {
+			"value": "Finance",
+			"label": "Finance",
+			"children": [
+			  {
+				"value": "Accountant",
+				"label": "Accountant"
+			  },
+			  {
+				"value": "Bookkeeper",
+				"label": "Bookkeeper"
+			  },
+			  {
+				"value": "Controller",
+				"label": "Controller"
+			  },
+			  {
+				"value": "Financial Analyst",
+				"label": "Financial Analyst"
+			  }
+			]
+		  },
+		  {
+			"value": "Other Engineering",
+			"label": "Other Engineering",
+			"children": [
+			  {
+				"value": "Hardware Engineer",
+				"label": "Hardware Engineer"
+			  },
+			  {
+				"value": "Mechanical Engineer",
+				"label": "Mechanical Engineer"
+			  },
+			  {
+				"value": "Systems Engineer",
+				"label": "Systems Engineer"
+			  }
+			]
+		  },
+		  {
+			"value": "C-Level",
+			"label": "C-Level",
+			"children": [
+			  {
+				"value": "CEO",
+				"label": "CEO"
+			  },
+			  {
+				"value": "CFO",
+				"label": "CFO"
+			  },
+			  {
+				"value": "CTO",
+				"label": "CTO"
+			  },
+			  {
+				"value": "CAO",
+				"label": "CAO"
+			  },
+			  {
+				"value": "CMO",
+				"label": "CMO"
+			  }
+			]
+		  },
+		  {
+			"value": "Other",
+			"label": "Other",
+			"children": [
+			  {
+				"value": "Attorney",
+				"label": "Attorney"
+			  },
+			  {
+				"value": "Business Analyst",
+				"label": "Business Analyst"
+			  },
+			  {
+				"value": "Data Scientist",
+				"label": "Data Scientist"
+			  },
+			  {
+				"value": "Product Manager",
+				"label": "Product Manager"
+			  },
+			  {
+				"value": "Other",
+				"label": "Other"
+			  }
+			]
+		  }
+	  ]
+}
