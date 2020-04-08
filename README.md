@@ -70,9 +70,4 @@ The root directory of your application, contain a .env.example file. You should 
 
 4. Run `npm install` in order to install dependencies.<br  />
 
-_At this point you can run `npm start` to see the example app at `http://localhost:4000`. You can easily change this port by changing  the `.env` file ._
- 
-
- ## License 
-
- This project is licensed under the GPL license, Copyright (c) 2020 Milad Heydari.
+5.At this point you can run `npm start` to see the example app at `http://localhost:4000`. You can easily change this port by changing  the `.env` file ._
