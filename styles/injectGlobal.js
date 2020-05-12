@@ -3,9 +3,9 @@ import { isRTL } from "utils/isRTL";
 
 export const fontFamily = {
 	persian:
-		'Vazir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+		"Vazir, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
 	english:
-		'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"	'
+		"Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"	"
 };
 
 const GlobalStyle = createGlobalStyle`
@@ -14,8 +14,7 @@ font-family: 'Inter';
 font-weight: 100 900;
 font-style: normal;
 font-named-instance: 'Regular';
-src: url("static/fonts/inter.woff2") format("woff2");
-src:url("static/fonts/inter.svg#webfontSRj8j0P") format("svg");
+src: url("/static/fonts/inter.woff2") format("woff2");
 }
 
 ///vazir font 
@@ -87,7 +86,7 @@ font-style: style;
 	body {
 		direction:  ${({ locale }) => (isRTL(locale) ? "rtl" : "ltr")};
 		font-family: ${({ locale }) =>
-			isRTL(locale) ? fontFamily.persian : fontFamily.english};
+	isRTL(locale) ? fontFamily.persian : fontFamily.english};
 		color: red;
 	}
 	.ant-message-notice-content {
@@ -101,7 +100,7 @@ font-style: style;
 		0 100px 80px rgba(0, 0, 0, 0.12);
 		background-color:#37383e;
 		font-family: ${({ locale }) =>
-			isRTL(locale) ? fontFamily.persian : fontFamily.english};
+	isRTL(locale) ? fontFamily.persian : fontFamily.english};
 	}
 	.ant-message .anticon {
 	 ${({ locale }) => (isRTL(locale) ? "margin-left: 8px" : "margin-right: 8px")}

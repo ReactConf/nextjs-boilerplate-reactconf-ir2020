@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 import React, { Fragment } from "react";
 
@@ -18,10 +18,9 @@ export default class MyDocument extends Document {
 		const { styleElements } = this.props;
 
 		return (
-			<html>
-				<Head>
-					<div dangerouslySetInnerHTML={{
-						__html: `
+			<Html>
+				<script dangerouslySetInnerHTML={{
+					__html: `
    <!--
   '+++'   -++/++++++++++++++++++++++++++++++++-                                                     
   -+:' '-++sdNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
@@ -31,7 +30,7 @@ export default class MyDocument extends Document {
   -smNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
   +NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
   +NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
-  +NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
+  +NNNNNNNNNNNNNN/>NNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
   +NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
   +NNNNNNNNNNNNNNNNNNNysssdNNNNNhso++oymNNNNNN+                                                     
   +NNNNNNNNNNNNNNNNNNN+...sNNNh:........+mNNNN+                                                     
@@ -48,7 +47,8 @@ export default class MyDocument extends Document {
   '+++++++++++++++++++++++++++++++++++++++++++'                                                     
   -->
   ` }}
-					/>
+
+				<Head>
 					{styleElements}
 				</Head>
 				<body>
@@ -57,7 +57,7 @@ export default class MyDocument extends Document {
 					</div>
 					<NextScript />
 				</body>
-			</html>
+			</Html>
 		);
 	}
 }
